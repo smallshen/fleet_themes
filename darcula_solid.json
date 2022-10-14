@@ -180,7 +180,7 @@
 
         "editor.fill": "1c1c1c",
         "editor.text": "Grey-120",
-        "editor.braceHighlight.fill": "Blue-30",
+        "editor.braceHighlight.fill": "313b1c",
         "editor.caret.fill": "Grey-120",
         "editor.currentLine.fill": "Grey-20",
         "editor.currentLine.@focused.fill": "1C1C1C",
@@ -602,7 +602,7 @@
             "showEmptyIntervals": false
         },
         "identifier.variable.local.reassigned": {
-            "fgColor": "Grey-120",
+            "fgColor": "a782bb",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false,
@@ -712,7 +712,7 @@
             "showEmptyIntervals": false
         },
         "identifier.namedArgument": {
-            "fgColor": "AD99FF",
+            "fgColor": "427bd9",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
