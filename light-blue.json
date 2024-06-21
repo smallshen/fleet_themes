@@ -1,0 +1,1318 @@
+{
+  "meta": {
+    "theme.name": "Light Blue",
+    "theme.kind": "Light",
+    "theme.version": 8
+  },
+  "colors": {
+    "text.dangerous": "Red 20",
+    "text.dimmed": "Gray 40",
+    "text.disabled": "Gray 60",
+    "text.error": "Gray 10",
+    "text.primary": "Gray 10",
+    "text.secondary": "Gray 60",
+    "text.success": "Green 10",
+    "text.warning": "Gray 10",
+    "background.dimmed": "White",
+    "background.disabled": "Gray 100",
+    "background.error": "Red 40",
+    "background.primary": "White",
+    "background.secondary": "Gray 100",
+    "background.warning": "Yellow 20",
+    "border": "Gray 80",
+    "border.focused": "MainTheme 50",
+    "focusOutline": "MainTheme 80",
+    "banner.background.error": "Red 90",
+    "banner.background.warning": "Yellow 70",
+    "banner.border.error": "Red 40",
+    "banner.border.warning": "Yellow 50",
+    "button.dangerous.background.default": "Red 30",
+    "button.dangerous.background.disabled": "White",
+    "button.dangerous.background.hovered": "Red 20",
+    "button.dangerous.background.pressed": "Red 10",
+    "button.dangerous.border.default": "Transparent",
+    "button.dangerous.border.disabled": "Gray 80",
+    "button.dangerous.border.hovered": "Transparent",
+    "button.dangerous.border.pressed": "Transparent",
+    "button.dangerous.focusBorder": "Red 90",
+    "button.dangerous.focusOutline": "Red 60",
+    "button.dangerous.text.default": "White",
+    "button.dangerous.text.disabled": "Gray 60",
+    "button.dangerous.text.hovered": "White",
+    "button.dangerous.text.pressed": "White",
+    "button.positive.background.default": "Green 30",
+    "button.positive.background.disabled": "White",
+    "button.positive.background.hovered": "Green 20",
+    "button.positive.background.pressed": "Green 10",
+    "button.positive.border.default": "Green 30",
+    "button.positive.border.disabled": "Gray 80",
+    "button.positive.border.hovered": "Green 20",
+    "button.positive.border.pressed": "Green 10",
+    "button.positive.focusBorder": "Green 90",
+    "button.positive.focusOutline": "Green 60",
+    "button.positive.text.default": "White",
+    "button.positive.text.disabled": "Gray 60",
+    "button.positive.text.hovered": "White",
+    "button.positive.text.pressed": "White",
+    "button.primary.background.default": "MainTheme 30",
+    "button.primary.background.disabled": "White",
+    "button.primary.background.hovered": "MainTheme 20",
+    "button.primary.background.pressed": "MainTheme 10",
+    "button.primary.border.default": "MainTheme 30",
+    "button.primary.border.disabled": "Gray 80",
+    "button.primary.border.hovered": "MainTheme 20",
+    "button.primary.border.pressed": "MainTheme 10",
+    "button.primary.focusBorder": "MainTheme 90",
+    "button.primary.focusOutline": "MainTheme 60",
+    "button.primary.text.default": "White",
+    "button.primary.text.disabled": "Gray 60",
+    "button.primary.text.hovered": "White",
+    "button.primary.text.pressed": "White",
+    "button.secondary.background.default": "White",
+    "button.secondary.background.disabled": "White",
+    "button.secondary.background.hovered": "Gray 110",
+    "button.secondary.background.pressed": "Gray 100",
+    "button.secondary.border.default": "Gray 80",
+    "button.secondary.border.disabled": "Gray 80",
+    "button.secondary.border.hovered": "Gray 80",
+    "button.secondary.border.pressed": "Gray 80",
+    "button.secondary.focusBorder": "MainTheme 50",
+    "button.secondary.focusOutline": "MainTheme 80",
+    "button.secondary.text.default": "Gray 10",
+    "button.secondary.text.disabled": "Gray 60",
+    "button.secondary.text.hovered": "Gray 10",
+    "button.secondary.text.pressed": "Gray 10",
+    "checkbox.focusBorder": "MainTheme 50",
+    "checkbox.focusOutline": "MainTheme 60",
+    "checkbox.icon.default": "White",
+    "checkbox.icon.disabled": "White",
+    "checkbox.text.default": "Gray 10",
+    "checkbox.text.disabled": "Gray 60",
+    "checkbox.off.background.default": "White",
+    "checkbox.off.background.disabled": "White",
+    "checkbox.off.background.hovered": "Gray 110",
+    "checkbox.off.background.pressed": "White",
+    "checkbox.off.border.default": "Gray 70",
+    "checkbox.off.border.disabled": "Gray 80",
+    "checkbox.off.border.hovered": "MainTheme 50",
+    "checkbox.off.border.pressed": "Gray 70",
+    "checkbox.on.background.default": "MainTheme 40",
+    "checkbox.on.background.disabled": "Gray 80",
+    "checkbox.on.background.hovered": "MainTheme 30",
+    "checkbox.on.background.pressed": "MainTheme 10",
+    "checkbox.on.border.default": "Transparent",
+    "checkbox.on.border.disabled": "Transparent",
+    "checkbox.on.border.hovered": "Transparent",
+    "checkbox.on.border.pressed": "Transparent",
+    "completion.match.background": "Transparent",
+    "completion.match.text": "MainTheme 20",
+    "dragAndDrop.background": "0273eb33",
+    "editor.background": "White",
+    "editor.caret.background": "Gray 10",
+    "editor.caret.border": "Gray 10",
+    "editor.currentLine.background.default": "Gray 30-10",
+    "editor.currentLine.background.focused": "MainTheme 30-10",
+    "editor.foldedMark.background": "e5e0ff",
+    "editor.foldedMark.text": "Gray 40",
+    "editor.foldIndicator.background.hovered": "MainTheme 100",
+    "editor.foldIndicator.icon.default": "Gray 30",
+    "editor.foldIndicator.icon.hovered": "MainTheme 30",
+    "editor.gitDiff.background.added": "21ab7c",
+    "editor.gitDiff.background.blame": "Yellow 20",
+    "editor.gitDiff.background.conflict": "Yellow 20",
+    "editor.gitDiff.background.deleted": "Red 40",
+    "editor.gitDiff.background.modified": "MainTheme 40",
+    "editor.gitDiff.text.added": "Green 20",
+    "editor.gitDiff.text.conflict": "Yellow 10",
+    "editor.gitDiff.text.deleted": "Red 10",
+    "editor.gitDiff.text.modified": "MainTheme 10",
+    "editor.interline.block.background": "MainTheme 110",
+    "editor.interline.listItem.background.default": "MainTheme 110",
+    "editor.interline.listItem.background.focused": "MainTheme 90",
+    "editor.interline.listItem.background.hovered": "Gray 110",
+    "editor.interline.listItem.background.selected": "Gray 90",
+    "editor.interline.listItem.border.default": "Transparent",
+    "editor.interline.listItem.border.focused": "Transparent",
+    "editor.interline.listItem.border.hovered": "Transparent",
+    "editor.interline.listItem.border.selected": "Transparent",
+    "editor.interline.listItem.text.default": "Gray 10",
+    "editor.interline.listItem.text.focused": "Gray 10",
+    "editor.interline.listItem.text.hovered": "Gray 10",
+    "editor.interline.listItem.text.secondary": "Gray 60",
+    "editor.interline.listItem.text.selected": "Gray 10",
+    "editor.lineNumber.current": "Gray 20",
+    "editor.lineNumber.default": "Gray 60",
+    "editor.postline.background.error": "ffc4cf",
+    "editor.postline.background.info": "bce3d5",
+    "editor.postline.background.unused": "e2c9f0",
+    "editor.postline.background.warning": "fce4b3",
+    "editor.postline.background.weakWarning": "f0ece5",
+    "editor.renamePostline.background": "White",
+    "editor.renamePostline.border": "MainTheme 40",
+    "editor.renamePostline.description.text": "Gray 10",
+    "editor.renamePostline.usages.text": "Yellow 10",
+    "editor.selectableFoldedMark.background.default": "Transparent",
+    "editor.selectableFoldedMark.background.focused": "a3d1ff",
+    "editor.selectableFoldedMark.border.default": "Gray 60",
+    "editor.selectableFoldedMark.border.focused": "MainTheme 50",
+    "editor.selectableFoldedMark.text.default": "Gray 50",
+    "editor.selectableFoldedMark.text.focused": "18181880",
+    "editor.text": "Gray 10",
+    "editor.whitespaceIndicator": "Gray 50",
+    "gitBranchTag.local.background": "MainTheme 110-80",
+    "gitBranchTag.local.border": "MainTheme 20",
+    "gitBranchTag.local.text": "MainTheme 20",
+    "gitBranchTag.remote.background": "Transparent",
+    "gitBranchTag.remote.border": "Purple 10",
+    "gitBranchTag.remote.text": "Purple 10",
+    "icon.background.blue": "MainTheme 40",
+    "icon.background.green": "Green 30",
+    "icon.background.orange": "Yellow 30",
+    "icon.background.red": "Red 40",
+    "icon.background.cyan": "13a4cd",
+    "iconButton.off.background.default": "Transparent",
+    "iconButton.off.background.disabled": "Transparent",
+    "iconButton.off.background.hovered": "Gray 100",
+    "iconButton.off.background.pressed": "Gray 80",
+    "iconButton.off.border.default": "Transparent",
+    "iconButton.off.border.disabled": "Transparent",
+    "iconButton.off.border.hovered": "Transparent",
+    "iconButton.off.border.pressed": "Transparent",
+    "iconButton.off.focusBorder": "MainTheme 50",
+    "iconButton.off.focusOutline": "MainTheme 50",
+    "iconButton.off.text.default": "Gray 10",
+    "iconButton.off.text.disabled": "Gray 60",
+    "iconButton.off.text.hovered": "Gray 10",
+    "iconButton.off.text.pressed": "Gray 10",
+    "iconButton.on.background.default": "MainTheme 100",
+    "iconButton.on.background.disabled": "Gray 110",
+    "iconButton.on.background.hovered": "MainTheme 90",
+    "iconButton.on.background.pressed": "MainTheme 80",
+    "iconButton.on.border.default": "Transparent",
+    "iconButton.on.border.disabled": "Transparent",
+    "iconButton.on.border.hovered": "Transparent",
+    "iconButton.on.border.pressed": "Transparent",
+    "iconButton.on.focusBorder": "MainTheme 50",
+    "iconButton.on.focusOutline": "MainTheme 50",
+    "iconButton.on.text.default": "MainTheme 40",
+    "iconButton.on.text.disabled": "Gray 60",
+    "iconButton.on.text.hovered": "MainTheme 40",
+    "iconButton.on.text.pressed": "MainTheme 40",
+    "inputField.background.default": "White",
+    "inputField.background.disabled": "Gray 110",
+    "inputField.background.error": "White",
+    "inputField.border.default": "Gray 80",
+    "inputField.border.disabled": "Gray 90",
+    "inputField.border.error": "Red 40",
+    "inputField.caret.default": "Gray 10",
+    "inputField.caret.error": "Gray 10",
+    "inputField.focusBorder.default": "MainTheme 50",
+    "inputField.focusBorder.error": "Red 40",
+    "inputField.focusOutline.default": "MainTheme 80",
+    "inputField.focusOutline.error": "Red 70",
+    "inputField.hint.default": "Transparent",
+    "inputField.hint.disabled": "Transparent",
+    "inputField.hint.error": "Transparent",
+    "inputField.hint.focused": "Transparent",
+    "inputField.hint.focusedError": "Transparent",
+    "inputField.selectionBackground.default": "MainTheme 80",
+    "inputField.selectionBackground.error": "MainTheme 80",
+    "inputField.text.default": "Gray 10",
+    "inputField.text.disabled": "Gray 60",
+    "inputField.text.error": "Gray 10",
+    "inputField.validationTooltip.background": "Red 40",
+    "inputField.validationTooltip.text": "White",
+    "link.focusOutline": "MainTheme 50",
+    "link.text.default": "MainTheme 20",
+    "link.text.disabled": "Transparent",
+    "link.underline": "MainTheme 20",
+    "listItem.background.default": "White",
+    "listItem.background.focused": "MainTheme 90",
+    "listItem.background.hovered": "Gray 110",
+    "listItem.background.selected": "Gray 90",
+    "listItem.background.dnd": "MainTheme 70",
+    "listItem.border.default": "Transparent",
+    "listItem.border.focused": "Transparent",
+    "listItem.border.hovered": "Transparent",
+    "listItem.border.selected": "Transparent",
+    "listItem.focusBorder": "MainTheme 50",
+    "listItem.text.default": "Gray 10",
+    "listItem.text.focused": "Gray 10",
+    "listItem.text.hovered": "Gray 10",
+    "listItem.text.secondary": "Gray 60",
+    "listItem.text.selected": "Gray 10",
+    "mainToolbar.background": "White",
+    "smartMode.enabled.fill": "MainTheme 40",
+    "smartMode.loader.border": "Gray 80",
+    "smartMode.error.fill": "Red 40",
+    "notification.background.default": "White",
+    "notification.background.unread": "MainTheme 100",
+    "notification.separator": "Gray 100",
+    "notification.text": "Black",
+    "notification.timestamp": "Black",
+    "parameterInfo.match.text": "MainTheme 20",
+    "pillButton.background.default": "White",
+    "pillButton.background.disabled": "White",
+    "pillButton.background.hovered": "Gray 110",
+    "pillButton.background.pressed": "Gray 100",
+    "pillButton.border.default": "Gray 80",
+    "pillButton.border.disabled": "Gray 80",
+    "pillButton.border.hovered": "Gray 80",
+    "pillButton.border.pressed": "Gray 80",
+    "pillButton.focusBorder": "MainTheme 50",
+    "pillButton.focusOutline": "MainTheme 80",
+    "pillButton.text.default": "Gray 50",
+    "pillButton.text.disabled": "Gray 50",
+    "pillButton.text.hovered": "Gray 50",
+    "pillButton.text.pressed": "Gray 50",
+    "popup.background": "White",
+    "popup.border": "Gray 100",
+    "popup.editor.background": "White",
+    "popup.listItem.background.default": "White",
+    "popup.listItem.background.focused": "MainTheme 90",
+    "popup.listItem.background.hovered": "Gray 110",
+    "popup.listItem.background.selected": "Gray 90",
+    "popup.listItem.border.default": "Transparent",
+    "popup.listItem.border.focused": "Transparent",
+    "popup.listItem.border.hovered": "Transparent",
+    "popup.listItem.border.selected": "Transparent",
+    "popup.listItem.text.default": "Gray 10",
+    "popup.listItem.text.focused": "Gray 10",
+    "popup.listItem.text.hovered": "Gray 10",
+    "popup.listItem.text.secondary": "Gray 60",
+    "popup.listItem.text.selected": "Gray 10",
+    "popup.tab.background.default": "Transparent",
+    "popup.tab.background.hovered": "Gray 110",
+    "popup.tab.background.selected": "Transparent",
+    "popup.tab.border": "Transparent",
+    "popup.tab.closeIcon.default": "Transparent",
+    "popup.tab.closeIcon.hovered": "Transparent",
+    "popup.tab.indicator": "Black",
+    "popup.tab.text": "Gray 10",
+    "popup.tabPanel.background": "White",
+    "popup.tabPanel.border": "Gray 80",
+    "popup.text": "Black",
+    "problemsWidget.checkmark.background": "Green 90",
+    "problemsWidget.checkmark.foreground": "Green 20",
+    "problemsWidget.status.expanded.background.error": "Red 30",
+    "problemsWidget.status.expanded.background.warning": "Yellow 20",
+    "problemsWidget.status.expanded.background.weakWarning": "Yellow 70",
+    "problemsWidget.status.expanded.border.error": "Red 30",
+    "problemsWidget.status.expanded.border.warning": "Yellow 20",
+    "problemsWidget.status.expanded.border.weakWarning": "Yellow 50",
+    "problemsWidget.status.expanded.lineNumber.error": "White",
+    "problemsWidget.status.expanded.lineNumber.warning": "White",
+    "problemsWidget.status.expanded.lineNumber.weakWarning": "Gray 10",
+    "progressBar.determinate.background": "Gray 100",
+    "progressBar.determinate.foreground": "MainTheme 30",
+    "progressBar.indeterminate.foreground": "MainTheme 30",
+    "progressBar.indeterminate.foregroundAccent": "MainTheme 70",
+    "remote.userColor.background.one": "Red 40",
+    "remote.userColor.background.two": "f57749",
+    "remote.userColor.background.three": "Yellow 40",
+    "remote.userColor.background.four": "82b52a",
+    "remote.userColor.background.five": "3eb289",
+    "remote.userColor.background.six": "MainTheme 50",
+    "remote.userColor.background.seven": "4a5fff",
+    "remote.userColor.background.eight": "7a5cff",
+    "remote.userColor.background.nine": "b35def",
+    "remote.userColor.background.ten": "e05ad7",
+    "remoteWorkspaceStatusLabel.background.docker": "MainTheme 30",
+    "remoteWorkspaceStatusLabel.background.space": "5c338f",
+    "remoteWorkspaceStatusLabel.background.ssh": "Green 20",
+    "remoteWorkspaceStatusLabel.background.wsl": "Yellow 20",
+    "remoteWorkspaceStatusLabel.text.docker": "White",
+    "remoteWorkspaceStatusLabel.text.space": "White",
+    "remoteWorkspaceStatusLabel.text.ssh": "White",
+    "remoteWorkspaceStatusLabel.text.wsl": "White",
+    "scrollbar.thumb.default": "00000033",
+    "scrollbar.thumb.hovered": "0000004d",
+    "scrollbar.thumb.pressed": "00000066",
+    "scrollbar.track.default": "Transparent",
+    "scrollbar.track.hovered": "0000001a",
+    "scrollbar.track.pressed": "0000001a",
+    "search.match.background": "Yellow 40",
+    "search.match.text": "Gray 10",
+    "search.counter.background": "0000001a",
+    "separator.default": "Gray 90",
+    "separator.hovered": "MainTheme 50",
+    "settings.modified.indicator": "Yellow 40",
+    "shadow.background.large": "2d2d2d1f",
+    "shadow.background.medium": "2d2d2d1f",
+    "shadow.background.small": "2d2d2d1f",
+    "shadow.border": "2d2d2d33",
+    "shortcutToast.background": "383838cc",
+    "shortcutToast.border": "Transparent",
+    "shortcutToast.text": "White",
+    "splitButton.background.default": "White",
+    "splitButton.background.disabled": "White",
+    "splitButton.background.hovered": "Gray 110",
+    "splitButton.background.pressed": "Gray 100",
+    "splitButton.border.default": "Gray 80",
+    "splitButton.border.disabled": "Gray 80",
+    "splitButton.border.hovered": "Gray 80",
+    "splitButton.border.pressed": "Gray 80",
+    "splitButton.focusBorder": "MainTheme 50",
+    "splitButton.focusOutline": "MainTheme 80",
+    "splitButton.separator": "Gray 80",
+    "splitButton.text.default": "Gray 10",
+    "splitButton.text.disabled": "Gray 60",
+    "splitButton.text.hovered": "Gray 10",
+    "splitButton.text.pressed": "Gray 10",
+    "statusBar.background": "White",
+    "survey.button.background.default": "Gray 90",
+    "survey.button.background.hovered": "MainTheme 30",
+    "survey.button.border.default": "Transparent",
+    "survey.button.border.hovered": "Transparent",
+    "survey.button.focusBorder": "Transparent",
+    "survey.button.focusOutline": "MainTheme 80",
+    "survey.button.text.default": "Gray 10",
+    "survey.button.text.hovered": "White",
+    "switch.off.thumb": "White",
+    "switch.off.track.default": "Gray 60",
+    "switch.off.track.hovered": "Gray 70",
+    "switch.on.thumb": "White",
+    "switch.on.track.default": "MainTheme 30",
+    "switch.on.track.hovered": "MainTheme 30",
+    "tab.background.default": "Gray 110",
+    "tab.background.hovered": "Gray 100",
+    "tab.background.selected": "White",
+    "tab.border": "Transparent",
+    "tab.closeIcon.default": "Transparent",
+    "tab.closeIcon.hovered": "Transparent",
+    "tab.indicator": "Black",
+    "tab.text": "Gray 10",
+    "tabPanel.background": "Gray 110",
+    "tabPanel.border": "Transparent",
+    "terminal.ansiColors.background.ansiBlack": "Black",
+    "terminal.ansiColors.background.ansiBlue": "508ed9",
+    "terminal.ansiColors.background.ansiBrightBlack": "b7b7b7",
+    "terminal.ansiColors.background.ansiBrightBlue": "54a1ff",
+    "terminal.ansiColors.background.ansiBrightCyan": "35e6e6",
+    "terminal.ansiColors.background.ansiBrightGreen": "3dd456",
+    "terminal.ansiColors.background.ansiBrightMagenta": "b63ddb",
+    "terminal.ansiColors.background.ansiBrightRed": "f06c5d",
+    "terminal.ansiColors.background.ansiBrightWhite": "White",
+    "terminal.ansiColors.background.ansiBrightYellow": "dbc051",
+    "terminal.ansiColors.background.ansiCyan": "84fafa",
+    "terminal.ansiColors.background.ansiGreen": "7bba85",
+    "terminal.ansiColors.background.ansiMagenta": "db75fa",
+    "terminal.ansiColors.background.ansiRed": "ce0505",
+    "terminal.ansiColors.background.ansiWhite": "e5e5e5",
+    "terminal.ansiColors.background.ansiYellow": "fae387",
+    "terminal.ansiColors.foreground.ansiBlack": "Black",
+    "terminal.ansiColors.foreground.ansiBlue": "2686ff",
+    "terminal.ansiColors.foreground.ansiBrightBlack": "b7b7b7",
+    "terminal.ansiColors.foreground.ansiBrightBlue": "0073ff",
+    "terminal.ansiColors.foreground.ansiBrightCyan": "24e0ff",
+    "terminal.ansiColors.foreground.ansiBrightGreen": "33f253",
+    "terminal.ansiColors.foreground.ansiBrightMagenta": "cc26ff",
+    "terminal.ansiColors.foreground.ansiBrightRed": "fca4a7",
+    "terminal.ansiColors.foreground.ansiBrightWhite": "White",
+    "terminal.ansiColors.foreground.ansiBrightYellow": "ffd83b",
+    "terminal.ansiColors.foreground.ansiCyan": "20b3b3",
+    "terminal.ansiColors.foreground.ansiGreen": "4dbb5f",
+    "terminal.ansiColors.foreground.ansiMagenta": "cc37fa",
+    "terminal.ansiColors.foreground.ansiRed": "ef341e",
+    "terminal.ansiColors.foreground.ansiWhite": "e5e5e5",
+    "terminal.ansiColors.foreground.ansiYellow": "b0993c",
+    "toggleButton.off.background.default": "MainTheme 100",
+    "toggleButton.off.background.disabled": "White",
+    "toggleButton.off.background.hovered": "MainTheme 90",
+    "toggleButton.off.background.pressed": "MainTheme 30",
+    "toggleButton.off.border.default": "Transparent",
+    "toggleButton.off.border.disabled": "Transparent",
+    "toggleButton.off.border.hovered": "Transparent",
+    "toggleButton.off.border.pressed": "Transparent",
+    "toggleButton.off.focusBorder": "MainTheme 50",
+    "toggleButton.off.focusOutline": "MainTheme 80",
+    "toggleButton.off.text.default": "Gray 10",
+    "toggleButton.off.text.disabled": "Gray 60",
+    "toggleButton.off.text.hovered": "Gray 10",
+    "toggleButton.off.text.pressed": "White",
+    "toggleButton.on.background.default": "MainTheme 30",
+    "toggleButton.on.background.disabled": "Gray 110",
+    "toggleButton.on.background.hovered": "MainTheme 20",
+    "toggleButton.on.background.pressed": "MainTheme 100",
+    "toggleButton.on.border.default": "Transparent",
+    "toggleButton.on.border.disabled": "Transparent",
+    "toggleButton.on.border.hovered": "Transparent",
+    "toggleButton.on.border.pressed": "Transparent",
+    "toggleButton.on.focusBorder": "MainTheme 90",
+    "toggleButton.on.focusOutline": "MainTheme 60",
+    "toggleButton.on.text.default": "White",
+    "toggleButton.on.text.disabled": "Gray 60",
+    "toggleButton.on.text.hovered": "White",
+    "toggleButton.on.text.pressed": "Gray 10",
+    "tool.background": "White",
+    "tooltip.background": "Gray 10",
+    "tooltip.border": "Transparent",
+    "tooltip.compactFolder.metadata.text": "Gray 60",
+    "tooltip.compactFolder.separator": "d6d5cb59",
+    "tooltip.text": "Gray 110",
+    "tree.focusBorder": "MainTheme 50",
+    "tree.compactFolder.selector.default": "1818184d",
+    "tree.compactFolder.selector.focused": "Gray 10",
+    "tree.compactFolder.separator": "1818184d",
+    "ai.banner.border": "Violet 40",
+    "ai.button.default.background.default": "Violet 30",
+    "ai.button.default.background.disabled": "White",
+    "ai.button.default.background.hovered": "Violet 20",
+    "ai.button.default.background.pressed": "Violet 10",
+    "ai.button.default.border.default": "Transparent",
+    "ai.button.default.border.disabled": "Gray 80",
+    "ai.button.default.border.hovered": "Transparent",
+    "ai.button.default.border.pressed": "Transparent",
+    "ai.button.default.focusBorder": "Violet 70",
+    "ai.button.default.focusOutline": "Violet 60",
+    "ai.button.default.text.default": "White",
+    "ai.button.default.text.disabled": "Gray 60",
+    "ai.button.default.text.hovered": "White",
+    "ai.button.default.text.pressed": "White",
+    "ai.button.recipe.background.default": "White",
+    "ai.button.recipe.background.disabled": "White",
+    "ai.button.recipe.background.hovered": "Violet 30",
+    "ai.button.recipe.background.pressed": "Violet 20",
+    "ai.button.recipe.border.default": "Violet 30",
+    "ai.button.recipe.border.disabled": "Gray 80",
+    "ai.button.recipe.border.hovered": "Violet 30",
+    "ai.button.recipe.border.pressed": "Violet 30",
+    "ai.button.recipe.focusBorder": "Violet 30",
+    "ai.button.recipe.focusOutline": "Violet 50",
+    "ai.button.recipe.text.default": "Gray 10",
+    "ai.button.recipe.text.disabled": "Gray 60",
+    "ai.button.recipe.text.hovered": "White",
+    "ai.button.recipe.text.pressed": "White",
+    "ai.error.border": "Red 40",
+    "ai.warning.border": "Yellow 50",
+    "ai.error.fill": "Red 90",
+    "ai.warning.fill": "Yellow 70",
+    "ai.icon.background": "Violet 30",
+    "ai.icon.background.secondary": "Violet 70",
+    "ai.icon.text": "Violet 20",
+    "ai.inputField.background.default": "White",
+    "ai.inputField.background.disabled": "Gray 110",
+    "ai.inputField.border.default": "Gray 80",
+    "ai.inputField.border.disabled": "Gray 90",
+    "ai.inputField.caret.default": "Gray 10",
+    "ai.inputField.focusBorder.default": "Violet 40",
+    "ai.inputField.focusOutline.default": "Violet 60",
+    "ai.inputField.selectionBackground.default": "MainTheme 80",
+    "ai.inputField.text.default": "Gray 10",
+    "ai.inputField.text.disabled": "Gray 60",
+    "ai.inputField.validationTooltip.background": "Red 40",
+    "ai.inputField.validationTooltip.text": "White",
+    "ai.inputField.snippet.border": "Gray 80",
+    "ai.snippet.border": "Gray 80",
+    "ai.snippet.editor.background": "White",
+    "ai.snippet.header.background": "Gray 110",
+    "ai.user.icon.background": "MainTheme 40",
+    "ai.user.icon.background.secondary": "MainTheme 90",
+    "ai.user.icon.text": "MainTheme 20",
+    "postline.unused.fill": "5eb1ef"
+  },
+  "text-attributes": {
+    "editor.selection": {
+      "bgColor": "Gray 80",
+      "layer": 2000
+    },
+    "editor.text.scheme": {
+      "fgColor": "Gray 10"
+    },
+    "editor.text.composable": {
+      "decoration": {
+        "color": "Gray 10"
+      }
+    },
+    "editor.selection.focused": {
+      "bgColor": "#A3D1FF",
+      "layer": 2000
+    },
+    "editor.search.results": {
+      "bgColor": "Yellow 40",
+      "stripeColor": "#ED8013",
+      "layer": 250
+    },
+    "editor.rename.entries": {
+      "bgColor": "Green 80",
+      "layer": 300,
+      "showEmptyIntervals": true
+    },
+    "editor.rename.current": {
+      "layer": 300,
+      "showEmptyIntervals": true,
+      "decoration": {
+        "color": "Blue 50",
+        "style": "BORDER"
+      }
+    },
+    "editor.brace.match": {
+      "bgColor": "#A0D8D5",
+      "layer": 300
+    },
+    "comment": {
+      "fgColor": "Gray 40",
+      "layer": 5
+    },
+    "comment.doc": {
+      "fgColor": "Gray 40",
+      "layer": 6
+    },
+    "comment.doc.tag": {
+      "fgColor": "3358d4",
+      "layer": 10
+    },
+    "comment.doc.value": {
+      "fgColor": "Gray 10",
+      "layer": 10
+    },
+    "comment.todo": {
+      "fgColor": "#BD4A2D",
+      "layer": 10
+    },
+    "link": {},
+    "link.always.visible": {
+      "decoration": {}
+    },
+    "link.hovered": {
+      "fgColor": "Blue 20",
+      "layer": 1000,
+      "decoration": {
+        "color": "Blue 20"
+      }
+    },
+    "error.hovered": {
+      "bgColor": "Red 70",
+      "layer": 220
+    },
+    "keyword": {
+      "fgColor": "0588f0",
+      "layer": 20
+    },
+    "keyword.typeModifier": {
+      "fgColor": "Teal",
+      "layer": 20
+    },
+    "metadata": {
+      "fgColor": "Lime",
+      "layer": 25
+    },
+    "number": {
+      "fgColor": "Pink",
+      "layer": 10
+    },
+    "boolean": {
+      "fgColor": "Teal",
+      "layer": 10
+    },
+    "string": {
+      "fgColor": "Green",
+      "layer": 15
+    },
+    "string.binary": {
+      "fgColor": "Lime",
+      "layer": 15
+    },
+    "string.escape": {
+      "fgColor": "Pink",
+      "layer": 25
+    },
+    "string.escape.unicode": {
+      "fgColor": "Pink",
+      "layer": 25
+    },
+    "string.escape.alternative": {
+      "fgColor": "Violet",
+      "layer": 25
+    },
+    "string.formatItem": {
+      "fgColor": "Brown",
+      "layer": 25
+    },
+    "string.regexp": {
+      "fgColor": "Violet",
+      "layer": 25
+    },
+    "identifier": {
+      "fgColor": "Gray 10",
+      "layer": 10
+    },
+    "identifier.this": {
+      "fgColor": "#8C4F7F",
+      "layer": 20
+    },
+    "identifier.this.mutable": {
+      "fgColor": "#8C4F7F",
+      "layer": 20,
+      "decoration": {
+        "color": "#8C4F7F"
+      }
+    },
+    "identifier.underCaret": {
+      "bgColor": "Gray 30-10",
+      "stripeColor": "#B793ED",
+      "layer": 200
+    },
+    "identifier.constant": {
+      "fgColor": "Pink",
+      "layer": 20
+    },
+    "identifier.constant.predefined": {
+      "fgColor": "Teal",
+      "layer": 20
+    },
+    "identifier.variable": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "identifier.variable.mutable": {
+      "layer": 20,
+      "decoration": {
+        "color": "Gray 60"
+      }
+    },
+    "identifier.parameter": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "identifier.parameter.js": {
+      "fgColor": "Lime",
+      "layer": 20
+    },
+    "identifier.function.declaration": {
+      "fgColor": "Gray 10",
+      "layer": 20,
+      "fontModifier": {
+        "semiBold": true
+      }
+    },
+    "identifier.function.declaration.js": {
+      "fgColor": "Violet",
+      "layer": 20,
+      "fontModifier": {
+        "semiBold": true
+      }
+    },
+    "identifier.function.call": {
+      "fgColor": "218358",
+      "layer": 20
+    },
+    "identifier.function.call.js": {
+      "fgColor": "218358",
+      "layer": 20
+    },
+    "identifier.function.call.package": {
+      "fgColor": "218358",
+      "layer": 20
+    },
+    "identifier.function.call.composable": {
+      "fgColor": "Lime",
+      "layer": 20
+    },
+    "identifier.method.static": {
+      "fgColor": "218358",
+      "layer": 20,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "identifier.method.static.js": {
+      "fgColor": "218358",
+      "layer": 20,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "identifier.type": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "identifier.field": {
+      "fgColor": "6550b9",
+      "layer": 20
+    },
+    "identifier.field.static": {
+      "fgColor": "6550b9",
+      "layer": 20,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "identifier.interface": {
+      "fgColor": "#2B59C2",
+      "layer": 20
+    },
+    "identifier.type.class": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "identifier.type.enum": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "identifier.type.struct": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "identifier.type.valueType": {
+      "fgColor": "Brown",
+      "layer": 20
+    },
+    "identifier.typeParameter": {
+      "fgColor": "Brown",
+      "layer": 20
+    },
+    "identifier.namedArgument": {
+      "fgColor": "Brown",
+      "layer": 20
+    },
+    "identifier.other": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "attributeName.html": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "attributeValue.html": {
+      "fgColor": "Green",
+      "layer": 20
+    },
+    "entityReference.html": {
+      "fgColor": "Brown",
+      "layer": 20
+    },
+    "tag.html": {
+      "fgColor": "#81858F",
+      "layer": 20
+    },
+    "tagName.html": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "tagName.custom.html": {
+      "fgColor": "Brown",
+      "layer": 30
+    },
+    "attributeName.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "hex.css": {
+      "fgColor": "Pink",
+      "layer": 20
+    },
+    "identifier.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "identifier.function.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "identifier.variable.css": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "interpolation.css": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "identifier.variable.php": {
+      "fgColor": "Brown",
+      "layer": 20
+    },
+    "property.php": {
+      "fgColor": "Pink",
+      "layer": 20
+    },
+    "property.static.php": {
+      "fgColor": "Pink",
+      "layer": 20,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "generic.php": {
+      "fgColor": "Pink",
+      "layer": 20
+    },
+    "jsCodeDelimiter.css": {
+      "fgColor": "Green",
+      "layer": 20
+    },
+    "jsCodeInjection.css": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "key.json": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "keyword.css": {
+      "fgColor": "Lime",
+      "layer": 20
+    },
+    "keyword.extend.css": {
+      "fgColor": "Lime",
+      "layer": 20
+    },
+    "keyword.global.css": {
+      "fgColor": "Lime",
+      "layer": 20
+    },
+    "keyword.important.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "mixin.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "number.css": {
+      "fgColor": "Pink",
+      "layer": 20
+    },
+    "number.unit.css": {
+      "fgColor": "Pink",
+      "layer": 20
+    },
+    "propertyName.css": {
+      "fgColor": "Teal",
+      "layer": 20
+    },
+    "propertyValue.css": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "punctuation.css": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "selector.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "selector.id.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "selector.class.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "selector.pseudo.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "selector.tag.css": {
+      "fgColor": "Violet",
+      "layer": 20
+    },
+    "string.css": {
+      "fgColor": "Green",
+      "layer": 20
+    },
+    "attribute.cpp": {
+      "fgColor": "#8C4F7F",
+      "layer": 20
+    },
+    "url.css": {
+      "fgColor": "Blue",
+      "layer": 20,
+      "decoration": {
+        "color": "#97ADE1"
+      }
+    },
+    "markup.heading": {
+      "fgColor": "Violet",
+      "layer": 20,
+      "fontModifier": {
+        "bold": true
+      }
+    },
+    "markup.bold": {
+      "layer": 20,
+      "fontModifier": {
+        "bold": true
+      }
+    },
+    "markup.italic": {
+      "layer": 20,
+      "fontModifier": {
+        "italic": true
+      }
+    },
+    "markup.code.block": {
+      "fgColor": "#78492A",
+      "layer": 20
+    },
+    "markup.href": {
+      "fgColor": "#78492A",
+      "layer": 20,
+      "fontModifier": {
+        "italic": true
+      },
+      "decoration": {}
+    },
+    "punctuation": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "punctuation.operator": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "snippet": {
+      "layer": 2001,
+      "showEmptyIntervals": true,
+      "borderColor": "Gray 50"
+    },
+    "snippet.selected": {
+      "layer": 2001,
+      "showEmptyIntervals": true,
+      "borderColor": "Blue 50"
+    },
+    "debug.currentFrame": {
+      "bgColor": "#C7EDED",
+      "layer": -68,
+      "fullLine": true
+    },
+    "diff.added": {
+      "bgColor": "#DFF5EB",
+      "layer": -69,
+      "fullLine": true
+    },
+    "diff.added.word": {
+      "bgColor": "#ABD9C7",
+      "layer": -60
+    },
+    "diff.added.withBorder": {
+      "bgColor": "#DFF5EB",
+      "layer": -69,
+      "fullLine": true,
+      "decoration": {
+        "color": "#A9D6C6",
+        "style": "BORDER"
+      }
+    },
+    "diff.added.empty": {
+      "bgColor": "#21AB7C",
+      "layer": -60,
+      "showEmptyIntervals": true
+    },
+    "diff.added.resolved": {
+      "bgColor": "Transparent",
+      "layer": -69,
+      "fullLine": true,
+      "decoration": {
+        "color": "#A9D6C6",
+        "style": "BORDER"
+      }
+    },
+    "diff.deleted": {
+      "bgColor": "#FCEAEE",
+      "layer": -69,
+      "fullLine": true
+    },
+    "diff.deleted.word": {
+      "bgColor": "#FACFD7",
+      "layer": -60,
+      "showEmptyIntervals": true
+    },
+    "diff.deleted.withBorder": {
+      "bgColor": "#FCEAEE",
+      "layer": -69,
+      "fullLine": true,
+      "decoration": {
+        "color": "Red 70",
+        "style": "BORDER"
+      }
+    },
+    "diff.deleted.empty": {
+      "bgColor": "Red 40",
+      "layer": -60,
+      "showEmptyIntervals": true
+    },
+    "diff.deleted.resolved": {
+      "bgColor": "Transparent",
+      "layer": -69,
+      "fullLine": true,
+      "decoration": {
+        "color": "Red 70",
+        "style": "BORDER"
+      }
+    },
+    "diff.modified": {
+      "bgColor": "#E1EDFA",
+      "layer": -69,
+      "fullLine": true
+    },
+    "diff.modified.word": {
+      "bgColor": "Blue 70",
+      "layer": -60
+    },
+    "diff.modified.withBorder": {
+      "bgColor": "#E1EDFA",
+      "layer": -69,
+      "fullLine": true,
+      "decoration": {
+        "color": "Blue 70",
+        "style": "BORDER"
+      }
+    },
+    "diff.modified.resolved": {
+      "bgColor": "Transparent",
+      "layer": -69,
+      "fullLine": true,
+      "decoration": {
+        "color": "Blue 70",
+        "style": "BORDER"
+      }
+    },
+    "diff.conflict.withBorder": {
+      "bgColor": "#FCF4E3",
+      "layer": -68,
+      "fullLine": true,
+      "decoration": {
+        "color": "#EBD1A9",
+        "style": "BORDER"
+      }
+    },
+    "diff.conflict.resolved": {
+      "bgColor": "Transparent",
+      "layer": -68,
+      "fullLine": true,
+      "decoration": {
+        "color": "#EBD1A9",
+        "style": "BORDER"
+      }
+    },
+    "refactoring.modified.code": {
+      "bgColor": "Green 80",
+      "layer": -60
+    },
+    "problem.error": {
+      "layer": 70,
+      "decoration": {
+        "color": "#E81237",
+        "thickness": 2
+      }
+    },
+    "problem.error.badCharacter": {
+      "layer": 100,
+      "showEmptyIntervals": true,
+      "decoration": {
+        "color": "#E81237",
+        "thickness": 2
+      }
+    },
+    "problem.warning": {
+      "layer": 60,
+      "decoration": {
+        "color": "#EBAE36",
+        "thickness": 2
+      }
+    },
+    "problem.warning.weak": {
+      "layer": 40,
+      "decoration": {
+        "color": "#D9D0BF",
+        "thickness": 2
+      }
+    },
+    "problem.deprecated": {
+      "layer": 30,
+      "decoration": {
+        "color": "Gray 10",
+        "position": "THROUGH"
+      }
+    },
+    "problem.info": {
+      "layer": 50,
+      "decoration": {
+        "color": "#A366C4"
+      }
+    },
+    "problem.unknown": {
+      "layer": 50
+    },
+    "problem.unused": {
+      "opacity": 0.5,
+      "layer": 60
+    },
+    "transparent": {},
+    "comment.buildConstraint.go": {
+      "fgColor": "Gray 10",
+      "layer": 5
+    },
+    "identifier.methodReceiver.go": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "identifier.package.go": {
+      "fgColor": "Brown",
+      "layer": 20
+    },
+    "identifier.typeDeclaration.go": {
+      "fgColor": "Gray 10",
+      "layer": 20
+    },
+    "identifier.typeReference.go": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "identifier.variable.shadowing.go": {
+      "fgColor": "Lime",
+      "layer": 20
+    },
+    "metadata.structTag.arbitraryText.go": {
+      "fgColor": "Gray 40",
+      "layer": 25
+    },
+    "metadata.structTag.key.go": {
+      "fgColor": "Gray 10",
+      "layer": 25
+    },
+    "metadata.structTag.value.go": {
+      "fgColor": "Green",
+      "layer": 25
+    },
+    "identifier.anchor.yaml": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "identifier.alias.yaml": {
+      "fgColor": "Orange",
+      "layer": 20
+    },
+    "punctuation.operator.merge.yaml": {
+      "fgColor": "Pink",
+      "layer": 20
+    },
+    "schema.yaml": {
+      "fgColor": "Brown",
+      "layer": 20
+    },
+    "key.yaml": {
+      "fgColor": "Teal",
+      "layer": 20
+    },
+    "value.yaml": {
+      "fgColor": "Violet",
+      "layer": 2
+    },
+    "ai.generated": {
+      "bgColor": "#c5bfff",
+      "layer": 10
+    },
+    "identifier.dependency.scope.amper": {
+      "fgColor": "Orange",
+      "layer": 20
+    },
+    "identifier.dependency.annotator.amper": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "identifier.dependency.add.amper": {
+      "fgColor": "Blue",
+      "layer": 20
+    },
+    "editor.indent.guide": {
+      "fgColor": "Gray 90",
+      "decoration": {
+        "style": "DASHED"
+      }
+    },
+    "editor.indent.guide.current": {
+      "fgColor": "Gray 70",
+      "decoration": {
+        "style": "DASHED"
+      }
+    },
+    "editor.indent.guide.declaration": {
+      "fgColor": "Gray 100"
+    },
+    "editor.indent.guide.declaration.current": {
+      "fgColor": "Gray 70"
+    }
+  },
+  "palette": {
+    "White": "ffffff",
+    "Gray 110": "f2f2f2",
+    "Gray 100": "eaeaea",
+    "Gray 90": "e2e2e2",
+    "Gray 80": "d8d8d8",
+    "Gray 70": "c2c2c2",
+    "Gray 60": "a0a0a0",
+    "Gray 50": "898989",
+    "Gray 40": "767676",
+    "Gray 30": "484848",
+    "Gray 30-10": "4848481a",
+    "Gray 20": "383838",
+    "Gray 10": "181818",
+    "Black": "000000",
+    "Red 90": "fcf1f3",
+    "Red 80": "fcf1f3",
+    "Red 70": "f3b4bf",
+    "Red 60": "ee8a9b",
+    "Red 50": "ee8a9b",
+    "Red 40": "ea4b67",
+    "Red 30": "d93953",
+    "Red 20": "ce364d",
+    "Red 10": "c03248",
+    "Green 90": "ecf5f1",
+    "Green 80": "c7ecdc",
+    "Green 70": "91d2b8",
+    "Green 60": "61b696",
+    "Green 50": "4ca988",
+    "Green 40": "3ea17f",
+    "Green 30": "028764",
+    "Green 20": "07805f",
+    "Green 10": "13664e",
+    "Yellow 70": "fef7eb",
+    "Yellow 60": "fedfb0",
+    "Yellow 50": "fecf87",
+    "Yellow 40": "f8ab17",
+    "Yellow 30": "e1971b",
+    "Yellow 20": "d08a1e",
+    "Yellow 10": "9a651e",
+    "Purple 50-80": "fbf6fecc",
+    "Purple 50": "fbf6fe",
+    "Purple 40": "e8ccfb",
+    "Purple 30": "c98df5",
+    "Purple 20": "a842eb",
+    "Purple 10": "a336e9",
+    "Brown": "664229",
+    "Green": "086e14",
+    "Lime": "616605",
+    "Pink": "a31d8d",
+    "Plum": "944a9e",
+    "Teal": "14646e",
+    "Teal Dark": "47676b",
+    "Violet": "5511bf",
+    "Violet 70": "e3e1fe",
+    "Violet 60": "c3befb",
+    "Violet 50": "a39bf9",
+    "Violet 40": "6d60f4",
+    "Violet 30": "6658f3",
+    "Violet 20": "5a4ce5",
+    "Violet 10": "4d40d8",
+    "Orange": "bf4a02",
+    "Transparent": "ffffff00",
+    "MainTheme": "3a5bc7",
+    "MainTheme 10": "3358d4",
+    "MainTheme 20": "0d74ce",
+    "MainTheme 30": "0d74ce",
+    "MainTheme 30-10": "0d74ce1a",
+    "MainTheme 40": "0588f0",
+    "MainTheme 50": "0090ff",
+    "MainTheme 60": "5eb1ef",
+    "MainTheme 70": "8ec8f6",
+    "MainTheme 80": "acd8fc",
+    "MainTheme 90": "d5efff",
+    "MainTheme 100": "e6f4fe",
+    "MainTheme 110": "f4faff",
+    "MainTheme 110-80": "f4faffcc"
+  }
+}

@@ -1300,19 +1300,19 @@
     "Violet 10": "282360",
     "Yellow": "ebc88d",
     "Transparent": "ffffff00",
-    "MainTheme": "b6ecf7",
+    "MainTheme": "4ccce6",
     "MainTheme Light": "c2e6ff",
-    "MainTheme 110": "4ccce6",
-    "MainTheme 100": "23afd0",
-    "MainTheme 90": "00a2c7",
+    "MainTheme 110": "b6ecf7",
+    "MainTheme 100": "4ccce6",
+    "MainTheme 90": "23afd0",
     "MainTheme 80": "00a2c7",
-    "MainTheme 70": "12a594",
-    "MainTheme 60": "11809c",
-    "MainTheme 50": "12677e",
+    "MainTheme 70": "11809c",
+    "MainTheme 60": "12677e",
+    "MainTheme 50": "045468",
     "MainTheme 40": "004558",
     "MainTheme 30": "003848",
     "MainTheme 20": "082c36",
-    "MainTheme 10": "0b161a",
-    "MainTheme 10-60": "0b161a60%"
+    "MainTheme 10-60": "0b161a60%",
+    "MainTheme 10": "0b161a"
   }
 }
